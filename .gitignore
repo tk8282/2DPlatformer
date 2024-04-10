@@ -1,0 +1,35 @@
+# Unreal Engine 4 specific gitignore settings
+
+# Compiled source files
+/Binaries/
+
+# Intermediate files
+/Intermediate/
+
+# Saved files (autosaves)
+/Saved/
+
+# Backup files created by Unreal Engine
+/DerivedDataCache/
+/Build/
+*.autosave
+
+# User-specific files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.opendb
+*.VC.db
+
+# Visual Studio Code directories
+.vscode/
+
+# macOS generated files (if working across platforms)
+.DS_Store
+
+# Thumb db files (Windows)
+Thumbs.db
+
+# User-specific files that should not be shared
+Config/User*
